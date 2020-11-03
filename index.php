@@ -51,11 +51,11 @@ if (filter_has_var(INPUT_POST, 'firstname')&& filter_has_var (INPUT_POST, 'lastn
     <form action="" method="POST">
         <div>
             <label for="firstname">Firstname</label>
-            <input id="firstname" type="firstname">
+            <input id="firstname" type="firstname" name="firstname">
         </div>
         <div>
             <label for="lastname">Lastname</label>
-            <input id="lastname" type="lastname">
+            <input id="lastname" type="lastname" name="lastname">
         </div>
         <div>
             <button type="submit">Ajouter</button>
